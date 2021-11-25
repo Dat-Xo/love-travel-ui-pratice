@@ -1,0 +1,45 @@
+/* MOBILE & TABLET */
+@media (max-width:64em){
+    
+
+}
+
+/* TABLET */
+@media (min-width:46.25em) and (max-width:63.9375em){
+  
+    .ctn__content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+
+    .ctn__content-travel{
+    width: 100%;
+    }
+
+    .header__list{
+    display: none;
+    }
+
+}
+
+
+/* MOBILE */
+@media (max-width: 46.1875em){
+    .ctn__content{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .ctn__content-travel{
+        width: 100%;
+    }
+
+    .header__list{
+    display: none;
+    }
+}
+
+
+
